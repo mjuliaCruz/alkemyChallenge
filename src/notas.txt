@@ -1,0 +1,19 @@
+//son mis notas!
+
+APIs en JS: conjunto de protocolos o definiciones que vamos a utilizar en nuestra aplicación. Nos comunicamos con 
+aplicaciones de software de terceros con la nuestra. En el medio hay reglas. 
+Nos facilita trabajo de desarrollo. Nos ahorra tiempo y dinero.
+
+API: aplicación programa interfaz
+
+1- en el desarrollo de front end, antes de empezar a programar se juntan los de marketing y diseño gráfico (con otras 
+personas), hacen una lluvia de ideas  para definir cómo será el diseño. Se llama: Sketch (se escribe un bosquejo), los 
+de marketing les pasan el bosquejo a los diseñadores, esto se llama: Wireframe. Luego de ahí se les pasa a los 
+desarrolladores y se pasa a código, prototipando el esqueleto (maquetar), sin codificar nada. Esto se llama Prototype. 
+Una vez que el prototipo se
+aceptó,  se pasa al desarrollo de la lógica. Esto es el development.
+
+Usamos Axios para traer la API de terce3ros.
+
+Entramos a la página API del sitio y copiamos el url.
+con el axios.get ==> nos traemos el url de una API, para poder acceder y utilizar su información.
