@@ -91,7 +91,7 @@ function App() {
           <Route path="/ocultarInfo" element={<EjemploBooleano />} /> {/*Ingresa al ejemplo de ocultar o mostrar info con un click*/}
           { /* <Route path="/carritoDeCompras" element={<EjemploCarritoCompras />} /> {/*Ingresa al ejemplo de ocultar o mostrar info con un click*/}
           { /* <Route path="/ejemploNombres" element={<Ejemplo />} /> {/*Ingresa al ejemplo de ocultar o mostrar info con un click*/}
-          <Route path="/resultados" element={<Resultados />} />
+          <Route path="/resultados" element={<Resultados addOrRemoveFromFavs={addOrRemoveFromFavs} />} />
           <Route path="/favoritos" element={<Favoritos favorites={favorites} addOrRemoveFromFavs={addOrRemoveFromFavs} />} />
         </Routes>
       
